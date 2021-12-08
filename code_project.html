@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute page</title>
+    <style>
+        #main{
+            background: rgb(230, 228, 228);
+        }
+        h1{
+            text-align: center;
+            font-weight: bold;
+        }
+        #title{
+            text-decoration: underline;
+        }
+        #img-div{
+            background: white;
+            border-radius: 5px;
+            margin-left:auto;
+            margin-right: auto;
+            width: 92vw;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+           margin-right: auto;
+           width: 90vw;
+           /* max-width: 1060px; */
+        }
+        figcaption{
+            text-align: center;
+            font-size: 25px;
+        }
+        @media all and (max-width:425px){
+            figcaption{
+                font-size: 5vw;
+            }
+        }
+        h3{
+            text-align: center;
+        }
+        ul{
+            padding: 0px 10% 0px 20%;
+        }
+        a:hover{
+            color: #091927;
+        }
+        footer{
+            margin-left: 10vw;
+            margin-bottom: 100px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body id="main">
+    <h1 id="title">Dr. Norman Borlaug</h1>
+  <figure class="image" id="img-div">
+    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" alt="Dr.Norman Borlaug and his team testing crops in feild" id="image">
+    <figcaption id="img-caption">Dr.Norman and his team testing and explain how to increase wheat yields</figcaption>
+    </figure>
+    <br>
+  <h3 id="tribute-info">About Dr.Norman Borlaug's life</h3>
+  <ul>
+    <li>Borlaug received his B.S. in forestry in 1937 and Ph.D. in plant pathology and genetics from the University of Minnesota in 1942.</li>
+    <li>During the mid-20th century, Borlaug led the introduction of these high-yielding varieties combined with modern agricultural production techniques to Mexico, Pakistan, and India.</li>
+    <li>wheat yields nearly doubled in Pakistan and India, greatly improving the food security in those nations.</li>
+    <li>Borlaug was often called "the father of the Green Revolution", and is credited with saving over a billion people worldwide from starvation.</li>
+    <li> He was awarded the Nobel Peace Prize in 1970 in recognition of his contributions to world peace through increasing food supply.</li>
+  </ul>
+  <br>
+  <footer>
+    If you have some time to read more information about Dr.Norman Borlaug <a id="tribute-link" href="#" target="_blank">cleck here</a>
+</footer>
+</body>
+</html>
